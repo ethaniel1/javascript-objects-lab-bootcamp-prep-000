@@ -10,6 +10,8 @@ return object
 }
 
 function deleteFromObjectByKey(object, key) {
-delete [key]
+delete object[key]
 return object 
 }
+
+function 
